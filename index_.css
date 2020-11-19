@@ -1,0 +1,143 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+.head_
+{
+  text-align: center;
+  font-size: 75%;
+
+}
+.box
+{
+  display: flex;
+  width: 100%;
+}
+.a
+{
+  display: flex;
+
+}
+
+p
+ {
+   padding-top: 50px;
+
+ }
+
+.a #l
+{
+  text-align: center;
+float: right;
+ width: 75px;
+  padding:2px 15px 2px 14px;
+  border: 1px solid black;
+background-color:  IndianRed;
+border-top: 0;
+border-right: 0;
+
+}
+
+.a #m
+{
+  float: none;
+  text-align: center;
+float: right;
+ width: 75px;
+  padding:2px 2px 3px 1px;
+  border: 1px solid black;
+background-color:  Brown;
+color: white;
+border-top: 0;
+border-right: 0;
+}
+.b #o
+{
+  float: none;
+  text-align: center;
+float: right;
+ width: 85px;
+  padding:2px 15px 3px 5px;
+    border:1px solid black ;
+    border-top: 0;
+border-right: 0;
+background-color:  Khaki;
+}
+
+div .one-thrid{
+  padding:0px 0px 16px 1px;
+    border: 1px solid black;
+    border-top:  3px;
+    margin: 20px;
+    background: gray;
+    border-top:  1px solid black;
+}
+@media only screen and   (max-width:767px) {
+.box  {
+    width: 100%;
+    display: block;
+  }
+  .a
+  {
+    display: block;
+  }
+  p
+ {
+   padding-top: 50px;
+
+ }
+
+  .a #l
+  {
+    float: right;
+  }
+  .a #m {
+
+float:right;
+  }
+  .b #o
+  {
+float: right;
+  }
+  .b p
+  {
+    padding-top: 25px;
+  }
+}
+
+@media screen and (min-width:992) {
+.box  {
+    display: flex;
+    width: 100%;
+  }
+
+.head_{
+  margin-left: 270px;
+}
+}
+
+@media only screen and (min-width:768px) and   (max-width:991px) {
+  .box{
+    display: block;
+    width: 100%;
+  }
+
+  .b p
+  {
+padding-top: 33px; }
+  .a #m {
+    float: right;
+
+  }
+.head_
+{
+  margin-left: 200px;
+}
+
+  .b #o
+ {
+   float: right;
+}
+
+}
