@@ -14,6 +14,10 @@
   display: flex;
   width: 100%;
 }
+.b p
+{
+padding-bottom: 6px;
+}
 .a
 {
   display: flex;
